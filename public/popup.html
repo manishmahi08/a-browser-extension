@@ -1,32 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Extension Popup</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-
-    h1 {
-      color: #0078d4;
-    }
-
-    button {
-      background-color: #0078d4;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-  </style>
+  <title>Your Extension Popup</title>
 </head>
-<body>
-  <h1>Hello, Popup!</h1>
-  <p>This is a simple popup for your Chrome extension.</p>
-  <button id="clickMeButton">Click Me</button>
-
+<body style="width:max-content;">
+  <h1>Display Random jokes from 3rd Party API</h1>
+  <div id="dataContainer"></div>
+  <button id="refreshButton">Refresh Joke</button>
   <script src="popup.js"></script>
 </body>
 </html>
